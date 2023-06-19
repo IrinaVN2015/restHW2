@@ -24,10 +24,14 @@
         "pattern": "^•• \\d{4}$"
       },
       "balance": {
-        "type": "fractional number"
+        "type": "integer"
       },
       "currency": {
-        "type": "string"
+        "type": "string",
+        "enum": [
+          "RUB",
+          "USD"
+        ]
       }
     }
   }
